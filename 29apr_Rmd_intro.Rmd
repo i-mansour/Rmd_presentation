@@ -1,6 +1,6 @@
 ---
 title: "What is R Markdown?"
-author: "India Mansour"
+author: "Carlos Aguilar, India Mansour, Ulfah Mardhiah"
 date: "29/04/2021"
 output: ioslides_presentation
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 --> Turns out that the first piece of information that I wanted to share with you was already here as the example text when I generated the presentation in RStudio :)
 
-## Here's a short video introduction to RMarkdown from RStudio Inc.
+## Here's a short video introduction
 
 ```{r message = FALSE, warning = FALSE}
 library("vembedr")
@@ -24,17 +24,18 @@ embed_url("https://vimeo.com/178485416")
 
 ## You might recognize this example...
 
-This is the book "R for Data Science," created using R Markdown
-![This is the book R for Data Science](RfDSscreenshot.png){width=80%}
+![This is the book "R for Data Science," created using R Markdown](RfDSscreenshot.png){width=80%}  
   
 
 ## Okay, but how can us non-book authors use R Markdown?
 
-* presentations, like this one
-* preparing materials for teaching or workshops that involve R (examples later!)
-* the early stages of putting together a manuscript
-* annotating your R code and including references
-* getting organized and having everything in one place
+* some examples that you'll see later:
+  + **presentations**, like this one
+  + preparing materials for **teaching or workshops**
+  + the early stages of **manuscript preparation**
+* what I'll talk about now:
+  + **annotating your R code** and including references
+  + **getting organized** and having everything in one place
 
 *basically, any activity where you might want to weave together narrative text and code and/or code outputs (like figures)*
 
@@ -42,7 +43,7 @@ This is the book "R for Data Science," created using R Markdown
 
 <center>
 
-![heyyyy, StackOverflow!](istoleit.png){width=50%}
+![heyyyy, stack**overflow**!](istoleit.png){width=50%}
 
 </center>
 
